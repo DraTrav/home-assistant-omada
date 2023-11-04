@@ -8,7 +8,7 @@
     "arch": ["aarch64", "amd64"],
     "ingress": "true",
     "ingress_port": "0",
-    "ingress_stream": "true"
+    "ingress_stream": "true",
     "url": "https://github.com/jkunczik/home-assistant-omada",
     "ports": {
         "8088/tcp": 8088,
