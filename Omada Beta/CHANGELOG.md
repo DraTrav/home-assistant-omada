@@ -1,5 +1,15 @@
 # Changelog
 
+## 5.15.14.32.2 - 2024-09-5
+### Changed
+- Updated to the upstream version 5.14.32.2
+- fully merged all files (`install.sh`, `entrypoint.sh`, `Dockerfile`)
+- only storing essential data (`data` and `lgos`) in the persistent `/data` volume
+
+## 5.14.7 - 2024-09-5
+### Changed
+- Updated to the upstream version 5.14.30.7
+
 ## 5.13.300 - 2023-03-28
 
 - Clean up Dockerfile and scripts
@@ -24,23 +34,3 @@
 ## 5.9.1 - 2023-03-11
 ### Added
 - Experimental support for AMD64 platforms.
-
-
-## 5.13.1 - 2024-01-15
-### Changed
-- Updated to the upstream version 5.13
-
-
-## 5.14.1 - 2024-01-15
-### Changed
-- Updated to the upstream version 5.14
-
-## 5.14.7 - 2024-09-5
-### Changed
-- Updated to the upstream version 5.14.30.7
-
-## 5.15.14.32.2 - 2024-09-5
-### Changed
-- Updated to the upstream version 5.14.32.2
-- fully merged all files (`install.sh`, `entrypoint.sh`, `Dockerfile`)
-- only storing essential data (`data` and `lgos`) in the persistent `/data` volume
