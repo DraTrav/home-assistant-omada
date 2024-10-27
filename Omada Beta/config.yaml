@@ -1,6 +1,6 @@
 ---
 name: Omada Controller Beta
-# image: dratrav/home-assistant-omada-beta # <-- comment out for local build
+image: dratrav/home-assistant-omada-stable # <-- comment out for local build
 version: 5.14.32.2
 slug: omada_controller
 description: TP-Link Omada Controller software
