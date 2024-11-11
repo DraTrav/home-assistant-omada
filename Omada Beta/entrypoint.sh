@@ -17,18 +17,18 @@ chown -R 508:508 "/data"
 if bashio::config.true 'enable_hass_ssl'; then
   bashio::log.info "Use SSL from Home Assistant"
   SSL_CERT_NAME=$(bashio::config 'certfile')
-  bashio::log.info "SSL certificate: ${SSL_CERT}"
+  bashio::log.info "SSL certificate: ${SSL_CERT_NAME}"
   SSL_KEY_NAME=$(bashio::config 'keyfile')
-  bashio::log.info "SSL private key: ${SSL_KEY}"
+  bashio::log.info "SSL private key: ${SSL_KEY_NAME}"
 fi
 
 # ======================================
 # mbentley original entrypoint.sh script
 # ======================================
 #
-# Replace this section if needed during updates. 
+# Replace this section if needed during updates.
 #
-# IMPORTANT: to enable pretty logs, replace all 
+# IMPORTANT: to enable pretty logs, replace all
 #   - `^(\s*)echo\s*"INFO: `     with    `$1bashio::log.info "`
 #   - `^(\s*)echo\s*"WARNING: `  with    `$1bashio::log.warning "`
 #   - `^(\s*)echo\s*"ERROR: `    with    `$1bashio::log.error "`
